@@ -1,0 +1,671 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&family=Sora:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.menu-desktop{
+    display: none;
+}
+
+
+
+.logo a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo img{
+    max-width: 150px;
+    
+}
+
+.logo h1{
+    font-size: 30px;
+    white-space: nowrap;
+    display: block;
+    color: white;
+    }
+
+    .logo .nome-ryan{
+        text-shadow: 10px 10px 10px;
+    }
+
+    .logo .profissao{
+        text-shadow:  #fff;
+    }
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*ESTILO CABEÇALHO*/
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+text-decoration: none;
+display: inline-block;
+}
+
+header a:hover{
+    color: #28B2F9;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #28B2F9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+h2.titulo span{
+    color: #00a3f5;
+}
+
+span{
+    color: #00a3f5;
+}
+
+.span-branco{
+    color: white;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #00a3f5;
+}
+
+/*DESEJO*/
+.para-quem .titulo{
+    margin-top: 60px;
+}
+.para-quem p{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 28px;
+    color: rgb(156, 155, 155);
+    margin-bottom: 28px;
+}
+
+
+
+/*ESTILO MAIN*/
+
+main{
+    color: white;
+}
+
+.img-topo-site img{
+    filter: drop-shadow(10px 10px 15px #40befd);
+    width: 500px;
+}
+
+section.topo-do-site{
+    padding: 40px 4% ;
+}
+
+.flex{
+    display: flex;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    font-size: 20px;
+margin: 40px 0;
+line-height: 38px;
+color: rgb(156, 155, 155);
+}
+
+.topo-do-site .txt-topo-site span{
+    color: #28B2F9;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #28B2F9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.btn-contato button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*ESPECIALIDADES*/
+
+
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+section.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    
+    margin-top: 45px;
+    transition: .2s;
+}
+
+section.especialidades .especialidades-box p {
+    font-size: 20px;
+    color: rgb(150, 148, 148);
+}
+
+section.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffffff79;
+    border: 2px solid #fff;
+}
+
+section.especialidades .especialidades-box i{
+    font-size: 58px;
+    color: #00a3f5;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/*SOBRE*/
+
+.img-sobre img{
+    width: 300px;
+    filter: drop-shadow(0 0 3px #00a3f5);
+    border-radius: 50%;
+}
+
+.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #00a3f5;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 25px;
+    color: rgb(150, 148, 148);
+    
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00a3f5;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 0 6px;
+    transition: 0.5s;
+}
+
+.sobre .txt-sobre .btn-social button:hover{
+    box-shadow: 0px 0px 8px #00a3f5;
+    transform: scale(1.05);
+}
+
+/*PORTIFOLIO*/
+
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff26;
+}
+
+section.portifolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+.img-port:hover{
+    
+    background-position: 100% 100%;
+}
+
+/*FORMULARIO*/
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+width: 100%;
+background-color: #323232;
+border: 0;
+outline: 0;
+padding: 20px 15px;
+border-radius: 15px;
+color: white;
+font-size: 18px;
+
+}
+
+form textarea{
+    resize: none;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #00a3f5;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #00a3f5;
+    transform: scale(1.05);
+}
+
+/* RODAPE */
+
+footer{
+    padding: 40px 4%;
+}
+
+footer img{
+    max-width: 150px;
+    
+}
+
+.line-footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    color: rgb(86, 85, 85);
+    max-width: 400px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.linha{
+    opacity: 30%;
+}
+
+.wpp .btn-wpp img{
+    max-width: 75px;
+    filter: drop-shadow(0 0 5px #00f535);
+   }
+
+   .btn-wpp{
+    position: fixed;
+    bottom: 14px;
+    right: 18px;
+    z-index: 99;
+   }
+
+   .btn-wpp:hover{
+    transform: scale(1.1);
+   }
+
+   /* FAQS */
+
+   .faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff; /*LINE*/
+    cursor: pointer;
+   }
+   .section-faq{
+    min-height: 50vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .text-faq{
+    color: white;
+    font-size: 28px;
+    margin: 2rem 0rem;
+   }
+
+   .faq-ask{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .faq-ask h3{
+    font-size: 18px;
+   }
+
+  .answer p{
+    font-size: 15px;
+    color: #7a7979;
+    padding-block: 8px;
+  }
+
+  .answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+  }
+
+  .faq.active .answer{
+    max-height: 300px;
+  }
+
+  .faq.active svg{
+    transform: rotate(180deg);
+  }
+
+
+@media screen and (max-width: 1020px){
+    /* cabeçalho */
+    .menu-desktop{
+        display: none;
+    }
+    .btn-contato{
+        display: none;
+    }
+    .logo{
+        margin: 0 ;
+        }
+    .logo img{
+        max-width: 100px;
+    }
+    .logo .nome-ryan{
+        font-size: 35px;
+    }
+    .logo .profissao{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* header */
+    .flex{
+        flex-direction: column-reverse;
+    }
+    .img-topo-site img{
+        max-width: 400px;
+        
+    }
+    .topo-do-site .txt-topo-site h1{
+        font-size: 32px;
+    }
+    .topo-do-site .txt-topo-site p{
+        font-size: 23px;
+    }
+
+    /*Para Quem*/
+    .para-quem .flex img{
+        border-radius: 50%;
+        max-width: 400px;
+        
+    }
+    /* especialidades */
+
+    .especialidades h2{
+        font-size: 32px;
+    }
+    .especialidades .especialidades-box h3{
+        font-size: 28px;
+    }
+    .especialidades .especialidades-box p{
+        font-size: 23px;
+    }
+    /* sobre */
+
+        .sobre .txt-sobre h2{
+    font-size: 32px;
+        }
+        .sobre .txt-sobre p{
+            font-size: 20px;
+            line-height: 25px;
+            letter-spacing: auto;
+        }
+        .sobre i,a{
+            display: none;
+        }
+
+        /* portifolio */
+        .portifolio .interface h2{
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .portifolio .interface .flex{
+            gap: 20px;
+            margin: auto;
+            
+        }
+        .img-port{
+            height: 600px;
+        }
+
+        /* wpp */
+
+       .wpp a{
+        display: block;
+       }
+
+       .wpp .btn-wpp img{
+        max-width: 75px;
+        filter: drop-shadow(0 0 5px #00f535);
+       }
+
+       .btn-wpp{
+        position: fixed;
+        bottom: 14px;
+        right: 18px;
+        z-index: 99;
+       }
+
+       .btn-wpp:hover{
+        transform: scale(1.1);
+       }
+
+       
+        /*ANIMAÇÃO*/
+
+
+.interface{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+
+
+.interface .section-faq :nth-child(2){
+    transition-delay: 300ms;
+}
+.interface .section-faq :nth-child(3){
+    transition-delay: 500ms;
+}
+.interface .section-faq :nth-child(4){
+    transition-delay: 700ms;
+}
+.interface .faq :nth-child(5){
+    transition-delay: 900ms;
+}
+        
+}
+
+@media screen and (min-width: 1020px){
+
+    .profissao{
+        margin-top: 20px;
+        position: relative;
+        margin-left: 900px ;
+    }
+
+    .para-quem{
+        margin-top: 200px;
+    }
+    .para-quem h2{
+        margin-bottom: 90px;
+    }
+    .para-quem p {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+.especialidades-box{
+text-align: center;
+margin: auto;
+
+}
+
+.especialidades h2{
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.sobre .flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sobre{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.txt-sobre p{
+    font-size: 28px;
+}
+
+.faq svg{
+    margin: 10px;
+}
+}
